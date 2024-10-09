@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CakeShop.DAL\CakeShop.DAL.csproj" />
+    <ProjectReference Include="..\CakeShop.MODEL\CakeShop.MODEL.csproj" />
+    <ProjectReference Include="..\CakeShop.Repository.Common\CakeShop.Repository.Common.csproj" />
+    <ProjectReference Include="..\CakeShop.Repository\CakeShop.Repository.csproj" />
+    <ProjectReference Include="..\CakeShop.Service.Common\CakeShop.Service.Common.csproj" />
+    <ProjectReference Include="..\CakeShop.Service\CakeShop.Service.csproj" />
+  </ItemGroup>
+
+
+</Project>

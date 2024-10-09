@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CakeShop.DAL\CakeShop.DAL.csproj" />
+    <ProjectReference Include="..\CakeShop.MODEL\CakeShop.MODEL.csproj" />
+    <ProjectReference Include="..\CakeShop.Repository.Common\CakeShop.Repository.Common.csproj" />
+  </ItemGroup>
+
+</Project>
